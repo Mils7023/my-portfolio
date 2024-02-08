@@ -104,8 +104,8 @@ export const Header = () => {
             <Nav.Item>
               <Link
                 className="nav-link"
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
+                href="#"
+                // target="_blank"
                 rel="noreferrer"
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
@@ -114,7 +114,7 @@ export const Header = () => {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/Mils7023/my-portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
