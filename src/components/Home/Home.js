@@ -24,7 +24,7 @@ export const HomeContainer = () => {
               </h1>
 
               <h1 className="heading-name">
-                IM
+                I&apos;M &nbsp;
                 <strong className="main-name">MILAN NARIYA</strong>
               </h1>
 
