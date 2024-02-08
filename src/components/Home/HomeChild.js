@@ -52,7 +52,7 @@ export const HomeChild = () => {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <Image src={myImg} className="img-fluid" alt="avatar" />
+              <Image src={myImg} className="img-fluid mx-auto" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

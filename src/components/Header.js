@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/logo_new.png";
 import Button from "react-bootstrap/Button";
 import Link from "next/link";
 // import { CgGitFork } from "react-icons/cg";
@@ -44,7 +44,13 @@ export const Header = () => {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <Image src={logo} className="img-fluid logo" alt="brand" />
+          <Image
+            src={logo}
+            className="img-fluid logo"
+            alt="brand"
+            height={60}
+            width={60}
+          />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -58,7 +64,7 @@ export const Header = () => {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            <Nav.Item>
+            <Nav.Item className="text-center">
               <Link
                 className="nav-link"
                 href="/"
@@ -68,7 +74,7 @@ export const Header = () => {
               </Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item className="text-center">
               <Link
                 className="nav-link"
                 href="/about"
@@ -78,7 +84,7 @@ export const Header = () => {
               </Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item className="text-center">
               <Link
                 className="nav-link"
                 href="/project"
@@ -91,7 +97,7 @@ export const Header = () => {
               </Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item className="text-center">
               <Link
                 className="nav-link"
                 href="/resume"
@@ -101,7 +107,7 @@ export const Header = () => {
               </Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item className="text-center">
               <Link
                 className="nav-link"
                 href="#"
@@ -112,7 +118,7 @@ export const Header = () => {
               </Link>
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
+            <Nav.Item className="fork-btn text-center">
               <Button
                 href="https://github.com/Mils7023/my-portfolio"
                 target="_blank"

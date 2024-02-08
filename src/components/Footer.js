@@ -23,7 +23,7 @@ export const Footer = () => {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="#"
+                href="https://github.com/Mils7023/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ export const Footer = () => {
             </li>
             <li className="social-icons">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/milan95"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ export const Footer = () => {
             </li>
             <li className="social-icons">
               <a
-                href="#"
+                href="https://www.instagram.com/milanpatel8959"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
