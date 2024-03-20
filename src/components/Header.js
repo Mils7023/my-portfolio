@@ -107,7 +107,7 @@ export const Header = () => {
               </Link>
             </Nav.Item>
 
-            <Nav.Item className="text-center">
+            {/* <Nav.Item className="text-center">
               <Link
                 className="nav-link"
                 href="#"
@@ -116,7 +116,7 @@ export const Header = () => {
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn text-center">
               <Button

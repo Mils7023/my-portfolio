@@ -33,16 +33,6 @@ export const Footer = () => {
             </li>
             <li className="social-icons">
               <a
-                href="#"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
                 href="https://www.linkedin.com/in/milan95"
                 style={{ color: "white" }}
                 target="_blank"

@@ -11,9 +11,9 @@ export const AboutCard = () => {
             Hi Everyone, I am <span className="purple">Milan Nariya </span>
             from <span className="purple"> Jamnagar, India.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently employed as a software developer at Wedowebapps.
             <br />
-            I have completed BE in Mechanical at UCET Ahmedabad, India.
+            I have completed BE at UCET Ahmedabad, India.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -21,9 +21,6 @@ export const AboutCard = () => {
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
