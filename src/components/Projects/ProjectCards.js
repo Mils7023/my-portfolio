@@ -28,7 +28,7 @@ export const ProjectCards = (props) => {
             variant="primary"
             href={props.demoLink}
             target="_blank"
-            style={{ textAlign: "center", width: "100%" }}
+            style={{ textAlign: "center", width: "100%", marginTop: "10px" }}
           >
             <CgWebsite /> &nbsp;
             {"View"}
