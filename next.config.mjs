@@ -3,6 +3,10 @@ const nextConfig = {
   webpack: (config, { isServer }) => {
     // Add file-loader for handling PDF files
 
+    if (isServer) {
+      config.externals.push('canvas');
+    }
+
     config.module.rules.push({
       test: /\.(pdf)$/,
       type: "asset/resource",
