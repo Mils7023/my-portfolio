@@ -1,5 +1,5 @@
-import { HomeContainer } from "@/components/Home/Home";
+import { ResumeContainer } from "@/components/Resume/ResumeNew";
 
 export default function ResumePage() {
-  return <HomeContainer />;
+  return <ResumeContainer />;
 }
